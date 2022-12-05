@@ -13,7 +13,6 @@ registries:
 updates:
   - package-ecosystem: maven
     directory: /
-    registries:
-      - '*'
+    registries: "*"
     schedule:
       interval: daily

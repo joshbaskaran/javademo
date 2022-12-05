@@ -17,5 +17,8 @@ maven-github-elixir-oslo:
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries:
+        - maven-github-uio-bmi
+        - maven-github-elixir-oslo
     schedule:
       interval: "daily"

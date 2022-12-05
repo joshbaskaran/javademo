@@ -8,12 +8,12 @@ maven-github-uio-bmi:
     type: maven-repository
     url: https://maven.pkg.github.com/uio-bmi
     username: joshbaskaran
-    password: ${{secrets.GITHUB_MAVEN}}
+    password: ${{secrets.MAVEN_GITHUB}}
 maven-github-elixir-oslo:
     type: maven-repository
     url: https://maven.pkg.github.com/elixir-oslo
     username: joshbaskaran
-    password: ${{secrets.GITHUB_MAVEN}}
+    password: ${{secrets.MAVEN_GITHUB}}
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
